@@ -27,6 +27,10 @@ tower = { workspace = true }
 tracing = { workspace = true }
 tracing-subscriber = { workspace = true, features = ["env-filter", "fmt"] }
 
+ark-bn254 = "0.5.0"
+ark-ec = "0.5.0"
+ark-ff = "0.5.0"
+
 [dev-dependencies]
 contender_testfile = { workspace = true }
 
